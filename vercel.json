@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/send.go": {
+      "runtime": "go1.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/send",
+      "dest": "/api/send.go"
+    }
+  ]
+}
